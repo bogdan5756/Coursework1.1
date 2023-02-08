@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        squareRoot(10);
+    }
+
+    public static void squareRoot(int number) {
+        number = number * number;
+        System.out.println(number);
     }
 }
